@@ -1,0 +1,78 @@
+/* pending_book_requests_style.css */
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+.cd-form {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+}
+
+legend {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+.icon input[type="checkbox"] {
+  margin-top: 0;
+}
+
+.cd-form input[type="submit"] {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 20px 0;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.cd-form input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.error-message {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#error {
+  color: #FF0000;
+}
+
+.success-message {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#success {
+  color: #008000;
+}
